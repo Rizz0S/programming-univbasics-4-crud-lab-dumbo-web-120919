@@ -18,12 +18,10 @@ end
 
 def remove_element_from_end_of_array(array)
   array.pop
-  array
 end
 
 def remove_element_from_start_of_array(array)
   array.delete_at(0)
-  array
 end
 
 def retrieve_element_from_index(array, index_number)
@@ -39,6 +37,5 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
-  array[index_number] = element
-  array
+  array[index_number] = elements
 end
